@@ -15,6 +15,7 @@ stages:
   - validate
   - build
   - deploy
+  - cleanup
 
 init:
   stage: prepare
